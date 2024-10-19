@@ -1,7 +1,6 @@
 import json
 from datetime import datetime
 
-
 class Expense:
     def __init__(self, amount, category,date, description):
         self.amount = amount
